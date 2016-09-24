@@ -1,0 +1,9 @@
+I watched a video in pluralsight (https://app.pluralsight.com/player?course=maya-6-unlimited-hair-54&author=papa-georgio&name=maya-6-unlimited-hair-54-m2&clip=0&mode=live)
+on how hair works in Maya. I chose this for a few reasons. I had thought it would be interesting to see how hair is made
+in a 3D rendering program. I have never seen how it was made but always assumed that it would be a pain to do. 
+I was interested on how hard, and how it all worked in the actual program. It was a very interesting series and kept
+my attention due to the fact it as not quite how I expected it all to work. I thought you would have to create 
+strand-by-strand, and I am sure there are systems that alow you to do that, if that would be how you want to make it.
+I also thought that hair would display very diferently; however, it does now make sense why some games have the hair animation
+seem to fall when the game loads. They apparently didnt save the animation after the initial fall and so it falls at the start
+of the in game load. Very interesting video, would like to learn more on how else you could render hair.
