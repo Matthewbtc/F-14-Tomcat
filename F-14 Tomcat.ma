@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: F-14 Tomcat.ma
-//Last modified: Fri, Sep 23, 2016 10:27:07 PM
+//Last modified: Fri, Sep 23, 2016 10:28:39 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -12,13 +12,13 @@ fileInfo "osv" "Mac OS X 10.11.6";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "A2FB7AE6-3F45-4B8B-99EA-9A9C66137B35";
-	setAttr ".t" -type "double3" -5.8359008972745938 7.9708394091052472 0.96103797320425288 ;
-	setAttr ".r" -type "double3" 1031.6616473666368 -450.60000000020392 0 ;
+	setAttr ".t" -type "double3" -5.6125137012221948 3.8648185628094764 1.1953044604610177 ;
+	setAttr ".r" -type "double3" 1056.8616473665927 -448.20000000019104 5.0628427569833164e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E79728AE-3447-5457-17D7-BD9A07D0BD55";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 8.6638694801508027;
+	setAttr ".coi" 6.0226362655670638;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -283,7 +283,7 @@ createNode mesh -n "pCubeShape9" -p "pCube9";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pCylinder4";
 	rename -uid "972098AE-8046-DB10-9C54-BCA87DE5554D";
-	setAttr ".t" -type "double3" 0.8978217106492985 0.55927089802285779 2.0968683725340376 ;
+	setAttr ".t" -type "double3" 1.8013747858963087 0.55927089802285779 1.9282642462388808 ;
 	setAttr ".r" -type "double3" 90.514816803819457 0 0 ;
 	setAttr ".s" -type "double3" 0.34018536730798427 0.14548673415771604 0.34018536730798427 ;
 createNode mesh -n "pCylinderShape4" -p "pCylinder4";
@@ -316,7 +316,7 @@ createNode mesh -n "pCylinderShape4" -p "pCylinder4";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pCylinder5";
 	rename -uid "69044418-C241-752A-2B9F-9FA29A07FB78";
-	setAttr ".t" -type "double3" 0.99735227016503147 1.0843634186136497 2.0968683725340376 ;
+	setAttr ".t" -type "double3" 1.8091173380296763 1.0843634186136497 1.6963385876219177 ;
 	setAttr ".r" -type "double3" -15.485000403081804 0 0 ;
 	setAttr ".s" -type "double3" 0.043664081907936449 0.27526482670401853 0.043664081907936449 ;
 createNode mesh -n "pCylinderShape5" -p "pCylinder5";
